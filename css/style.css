@@ -1,0 +1,28 @@
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    grid-gap: 10px;
+}
+div{
+    height: 20vh;
+}
+.red{
+    background-color: red;
+    grid-column: 1/ span 2;
+}
+.blue{
+    background-color: blue;
+    grid-column: 3/ span 3;
+}
+.green{
+    background-color: green;
+}
+.violet{
+    background-color: violet;
+    grid-column: 2/span 4;
+}
+.yellow{
+    background-color: yellow;
+    grid-column: 1/ span 5;
+}
